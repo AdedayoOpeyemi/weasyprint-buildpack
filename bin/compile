@@ -1,8 +1,9 @@
 #!/bin/sh
 
 echo "-----> Installing WeasyPrint"
-apt-get install build-essential libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
-apt-get install WeasyPrint
+# apt-get install build-essential libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+# apt-get install WeasyPrint
 # apt-get install libxml2-dev libxslt-dev libffi-dev libcairo2-dev libpango1.0-dev python-dev python3-pip
 # pip3 install WeasyPrint
+apt install python3-pip python3-cffi python3-brotli libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0
 exit 0
